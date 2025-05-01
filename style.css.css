@@ -1,0 +1,91 @@
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.destaque {
+    background-image: url(assets/pasted\ image\ 0.png);
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #1e73be;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    max-width: 250px;
+}
+
+.card img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.quem-somos {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.diferenciais ul {
+    list-style: none;
+    padding: 0;
+}
+
+.diferenciais li {
+    margin: 0.5rem 0;
+}
