@@ -31,6 +31,7 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    margin: 25px;
 }
 
 section {
@@ -39,8 +40,9 @@ section {
 }
 
 .destaque {
-    background-image: url(assets/pasted\ image\ 0.png);
+    background-image: url(assets/solocamadas.avif);
     background-color: #f4f4f4;
+    color: white;
     font-size: 20px;
 }
 
@@ -52,10 +54,11 @@ section {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.8rem 1.5rem;
-    background-color: #1e73be;
+    background-color: #148716;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -69,16 +72,66 @@ section {
 
 .card {
     max-width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
     max-width: 100px;
     margin-bottom: 1rem;
+    text-align: center;
+}
+
+.quemsomos-titulo {
+    color: #d1ce6c;
 }
 
 .quem-somos {
-    margin-left: 90px;
-    margin-right: 90px;
+    background-color: #0f4a10;
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.texto {
+    flex: 1 1 500px;
+}
+
+.quem-somos img {
+    flex: 1 1 300px;
+    max-width: 100%;
+    border: solid #d1ce6c;
+    border-radius: 15px;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto, .quem-somos img {
+        flex: 1 1 100%;
+    }
+}
+
+
+.diferenciais {
+    background-color: #90b16a;
+    color: white;
+}
+
+.diferenciais h2 {
+    color: #000000;
 }
 
 .diferenciais ul {
