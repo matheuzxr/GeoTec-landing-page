@@ -112,7 +112,6 @@ section {
     border-radius: 15px;
 }
 
-/* Responsivo para telas pequenas */
 @media (max-width: 768px) {
     .conteudo {
         flex-direction: column;
@@ -124,21 +123,128 @@ section {
     }
 }
 
-
-.diferenciais {
-    background-color: #90b16a;
-    color: white;
+.saibamais__bloco1 {
+    text-align: justify;
+    padding-left: 20px;
+    width: 100%;
 }
 
-.diferenciais h2 {
+.saibamais__bloco1 h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.sondagem {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.sondagem img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sondagem p {
+    flex: 1;
+    line-height: 1.6;
+    max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+    .sondagem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sondagem p {
+        text-align: justify;
+        padding: 10px;
+    }
+}
+
+
+
+.clientes {
+    background-color: #90b16a;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.clientes h2 {
     color: #000000;
 }
 
-.diferenciais ul {
-    list-style: none;
-    padding: 0;
+.clientes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.diferenciais li {
-    margin: 0.5rem 0;
+.depoimento {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Ajustes no rodapé para melhor estética e harmonia */
+.footer {
+    text-align: center;
+}
+
+.footer h4, h5 {
+    color: #0f4a10;
+    font-size: 20px;
+}
+
+.footer__contact a {
+    text-decoration: none;
+    color: black
+}
+
+.footer__contact a:link,
+.footer__contact a:visited {
+    text-decoration: none;
+}
+
+.footer__contact a:hover {
+    color: #ffffff; /* Branco ao passar o mouse */
+}
+
+.footer__contatos a {
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+}
+
+.footer__contatos a:hover {
+    color: #0f4a10;
+}
+
+.footer__bottom {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__contact {
+        margin-top: 1rem;
+    }
 }
