@@ -1,6 +1,6 @@
 # 🌐 Landing Page – Geotec Fundações
 
-Este repositório contém o código-fonte da landing page da empresa [Geotec Fundações](https://www.geotecfundacoes.com).
+Este repositório contém o código-fonte da landing page da empresa [Geotec Fundações]([https://www.geotecfundacoes.com](https://matheuzxr.github.io/GeoTec-landing-page/)).
 
 ## 📄 Sobre o projeto
 
